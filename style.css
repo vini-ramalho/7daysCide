@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("./style/header.css");
+@import url("./style/metricas.css");
+@import url("./style/vagas.css");
+@import url("./style/depoimento.css");
+@import url("./style/rodape.css");
+
+:root {
+  --font-principal: 'Inter', sans-serif;
+  --cinza-principal: #667085;
+  --vermelho-principal: #8E2424;
+  --branco-principal: #ffffff;
+  --preto-principal: #101828;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.links a {
+  color: var(--cinza-principal);
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--cinza-principal);
+  font-size: 0.9rem;
+}
+
+button#signUp {
+  background-color: var(--vermelho-principal);
+  color: var(--branco-principal);
+}

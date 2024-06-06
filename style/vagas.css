@@ -1,0 +1,64 @@
+.vagas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.vagasSubtitulo{
+    font-size: 14px;
+    color: var(--vermelho-principal);
+    font-weight: 500;
+    background-color: rgba(142, 36, 36, .1);
+    padding: .5em 1em;
+    border-radius: 15px;
+}
+
+.vagasTitulo{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 1em 0;
+    color: var(--preto-principal);
+}
+
+.vagasTexto{
+    color: var(--cinza-principal);
+    font-size: 20px;
+    padding-bottom: 2em;
+}
+
+.cards{
+margin: 4em 30em;
+
+}
+
+
+.cardsTitulo{
+    font-size: 20px;
+    color: var(--preto-principal);
+    font-weight: 500;
+}
+
+.cardVaga{
+    display: flex;
+    flex-direction: column;
+    margin: 3em auto;
+    gap: 1.5em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1em;
+
+    
+}
+
+.tituloCargo{
+    font-size: 18px;
+    color: var(--preto-principal);
+    font-weight: 400;
+}
+
+.descricaoCargo{
+    color: var(--cinza-principal);
+    font-size: 16px;
+    margin-right: 1em;
+}

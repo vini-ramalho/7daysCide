@@ -1,0 +1,30 @@
+.metricas{
+    display: flex;
+    gap: 11em;
+    margin: 5em 10em;
+    
+}
+
+.topicos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 280px;
+}
+
+.metrica__titulo{
+    color: var(--vermelho-principal);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.metrica__subtitulo{
+    font-size: 18px;
+    font-weight: 500;  
+    padding: 1em 0;  
+}
+
+.metrica__texto{
+    font-size: 16px;
+    color: var(--cinza-principal);
+}

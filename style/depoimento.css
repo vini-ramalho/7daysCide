@@ -1,0 +1,34 @@
+.depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6em;
+    margin: 5em 15em;
+    background-color: rgba(195, 25, 25, .02);
+    text-align: center;
+}
+
+.depoimento__texto{
+    font-size: 14px;
+    color: var(--vermelho-principal);
+    font-weight: 700;
+}
+
+.depoimentoCargo{
+    color: var(--cinza-principal);
+    font-size: 14px;
+}
+
+.depoimento__titulo{
+    padding: 1em;
+    font-size: 36px;
+    color: var(--preto-principal);
+    font-weight: 600;
+}
+
+.depoimentoSubtitulo{
+    padding: .5em;
+    color: var(--preto-principal);
+    font-weight: 500;
+}
+
